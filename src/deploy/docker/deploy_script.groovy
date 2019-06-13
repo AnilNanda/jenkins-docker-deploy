@@ -27,7 +27,7 @@ def commons = null
 
 def runScript() {
 
-    node ("jenkins-ecs-slave-base") {
+    node ("docker-deployer") {
         def artifactVersion
         def dockerImage
         def containerName
